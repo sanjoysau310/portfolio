@@ -1,6 +1,5 @@
 import React from "react";
-import { Navbar } from "./Navbar";
-import { SocialLinks } from "./SocialLinks";
+import "./layout.css";
 
 export const Header = () => {
   return <header id="header"></header>;

@@ -6,14 +6,14 @@ export const Counts = () => {
       <div className="row">
         <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
           <div className="count-box">
-            <i className="fa fa-face-smile" />
+            <i className="fa fa-face-smile fa-2xl"/>
             <span className="purecounter">1</span>
             <p>Companies</p>
           </div>
         </div>
         <div className="col-lg-3 col-md-6 mt-5 mt-md-0">
           <div className="count-box">
-            <i className="fa fa-diagram-project"></i>
+            <i className="fa fa-diagram-project fa-2xl"></i>
             <span className="purecounter">1</span>
             <p>Projects</p>
           </div>
@@ -27,7 +27,7 @@ export const Counts = () => {
         </div>
         <div className="col-lg-3 col-md-6 mt-5 mt-lg-0">
           <div className="count-box">
-            <i className="fa fa-award" />
+            <i className="fa fa-award fa-2xl" />
             <span className="purecounter">1</span>
             <p>Awards</p>
           </div>

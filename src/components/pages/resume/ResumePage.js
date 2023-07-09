@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./resume.css";
 import { Summary } from "./Summary";
 import { Education } from "./Education";
 import { Experience } from "./Experience";

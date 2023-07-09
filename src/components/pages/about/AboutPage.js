@@ -1,4 +1,5 @@
 import React from "react";
+import "./about.css";
 import { Skills } from "./Skills";
 import { Interests } from "./Interests";
 import { Counts } from "./Counts";

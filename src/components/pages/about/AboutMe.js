@@ -1,4 +1,5 @@
 import React from "react";
+import profile from "../../../assets/images/profile/profile.jpg";
 
 export const AboutMe = () => {
   return (
@@ -8,8 +9,8 @@ export const AboutMe = () => {
         <p>Learn more about me</p>
       </div>
       <div className="row">
-        <div className="col-lg-4" data-aos="fade-right">
-          <img src="" className="img-fluid" alt="profile picture" />
+        <div className="col-lg-4 profile" data-aos="fade-right">
+          <img src={profile} className="img-fluid" alt="profile pic" />
         </div>
         <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
           <h3>UI/UX &amp; Web Designer</h3>
