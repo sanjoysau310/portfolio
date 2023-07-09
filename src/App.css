@@ -49,7 +49,8 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("assets/images/backgrounds/bg1.jpg") top right no-repeat;
+  background: #040404 url("assets/images/backgrounds/bg6.jpg") top right no-repeat;
+  /* opacity: 0.5; */
   background-size: cover;
   left: 0;
   right: 0;
@@ -388,7 +389,7 @@ section.section-show {
   padding-bottom: 45px;
 }
 
-section .container {
+div .container {
   background: rgba(0, 0, 0, 0.9);
   padding: 30px;
 }

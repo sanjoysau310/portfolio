@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 
 export const Navbar = () => {
   const [navClass, setNavClass] = useState("navbar");
-  const [brand, setBrand] = useState(false);
+  //const [brand, setBrand] = useState(false);
 
   const toggleNav = () => {
     navClass === "navbar"
@@ -15,13 +15,13 @@ export const Navbar = () => {
     setNavClass("navbar");
   };
 
-  const closeBrand = () => {
-    setBrand(!brand);
-  };
+  // const closeBrand = () => {
+  //   setBrand(!brand);
+  // };
 
   return (
     <nav id="navbar" className={navClass}>
-      {!brand && navClass === "navbar" ? (
+      {navClass === "navbar" ? (
         <Link className="navbar-brand mx-5" to="/">
           <h1>
             <strong>Portfolio</strong>
@@ -30,7 +30,6 @@ export const Navbar = () => {
       ) : (
         ""
       )}
-      {console.log(brand)}
       <ul className="mx-3">
         <li>
           <NavLink to="/" className="nav-link" onClick={closeNav}>
@@ -44,7 +43,7 @@ export const Navbar = () => {
         </li>
         <li>
           <NavLink to="/resume" className="nav-link" onClick={closeNav}>
-            Resumeme
+            Resume
           </NavLink>
         </li>
         <li>

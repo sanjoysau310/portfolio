@@ -1,6 +1,5 @@
 import React from "react";
 import ContactForm from "./ContactForm";
-import { SocialLinks } from "../../layout/SocialLinks";
 import { ContactMe } from "./ContactMe";
 
 export const ContactPage = () => {

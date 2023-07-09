@@ -1,7 +1,6 @@
 import React from "react";
 import { Skills } from "./Skills";
 import { Interests } from "./Interests";
-import { Testimonials } from "./Testimonials";
 import { Counts } from "./Counts";
 import { AboutMe } from "./AboutMe";
 

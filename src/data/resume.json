@@ -1,0 +1,116 @@
+{
+    "summary": {
+        "name": "Sanjoy Sau",
+        "description": "Over all 5 years of development and testing experience in both Web and Desktop based applications with extended expertise in QA and Automated Software Testing in Telecom domain. Fast learner looking for challenging environment to work. Enthusiastic team player focused on achieving project objectives with speed and accuracy",
+        "contact": {
+            "address": "Kolkata, India",
+            "phone": "+91 9933625153",
+            "email": "sanjoysau13@gmail.com"
+        }
+    },
+    "experience": {
+        "role": "Automation Test specialist",
+        "duration": "07/2018 - Present",
+        "organisation": "Tata Consultancy Services, Kolkata, India",
+        "tasks": [
+            {
+                "id": 1,
+                "desc": "Developed and maintained regression test cases script for end to end Automation Testing of web apps using Selenium, Java, Cucumber TestNG/Junit and Extend Report"
+            },
+            {
+                "id": 2,
+                "desc": "Experience in automated testing using Cypress, JavaScript, Mocha etc. Developed web application using ReactJs, Spring Boot and MongoDB."
+            },
+            {
+                "id": 3,
+                "desc": "Prepared Test Plans, Test Scripts and Test Cases based on functional specifications and user requirements. Managed daily testing activities, identifying project risks to provide quality product."
+            },
+            {
+                "id": 4,
+                "desc": "Utilized HP quality center HP ALM to document defects and documentation for source control and reporting. compatibility."
+            },
+            {
+                "id": 5,
+                "desc": "Worked in website development processes from ideation to development improvement, including optimisation for cross- browser compatibility."
+            },
+            {
+                "id": 6,
+                "desc": "Migrated a multi-page experience to a single page app using reusable components with ReactJS, Context API and React Hooks and Router."
+            }
+        ]
+    },
+    "educations": [
+        {
+            "id": 1,
+            "degree": "Bachelor of Technology",
+            "specification": "Information Technology",
+            "duration": "08/2014 - 05/2018",
+            "institute": "Meghnad Saha Institute of Technology, Kolkata, India",
+            "desc": "Completed Bachelor degree with 8.42 CGPA"
+        },
+        {
+            "id": 2,
+            "degree": "Higher Secondary",
+            "specification": "Science",
+            "duration": "08/2011 - 05/2013",
+            "institute": "Tikrapara A.M. High School, Egra, India",
+            "desc": "Completed High School with 67%"
+        }
+    ],
+    "skills": [
+        {
+            "id": 1,
+            "title": "Programing Language",
+            "specifications": [
+                "Java",
+                "JavaScript",
+                "Python"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Library",
+            "specifications": [
+                "Selenium",
+                "Cypress",
+                "ReactJS"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Framework",
+            "specifications": [
+                "BDD",
+                "TestNG",
+                "SpringBooot"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Tools",
+            "specifications": [
+                "Cucumber",
+                "Postman",
+                "STS"
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Testing",
+            "specifications": [
+                "Functional Testing",
+                "Automation Testing",
+                "API Testing"
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Development",
+            "specifications": [
+                "Front End",
+                "Back End",
+                "Full Stack"
+            ]
+        }
+    ]
+}
