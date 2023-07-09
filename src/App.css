@@ -49,7 +49,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("assets/images/backgrounds/bg6.jpg") top right no-repeat;
+  background: #040404 url("assets/images/backgrounds/bg.jpg") top right no-repeat;
   /* opacity: 0.5; */
   background-size: cover;
   left: 0;
