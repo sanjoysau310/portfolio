@@ -10,7 +10,7 @@ export const HomePage = () => {
             <a href="index.html">Sanjoy Sau</a>
           </h1>
           <h2>
-            I'm a passionate <span>web designer</span> from Kolkata, India
+            I'm a passionate <span>Front End Developer</span> from Kolkata, India
           </h2>
         </div>
         <SocialLinks />

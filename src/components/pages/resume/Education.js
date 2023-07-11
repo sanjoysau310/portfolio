@@ -9,9 +9,8 @@ export const Education = () => {
       {educations.map((education) => {
         return (
           <div className="resume-item" key={education.id}>
-            <h4>
-              {education.degree} &amp; {education.specification}
-            </h4>
+            <h4>{education.degree}</h4>
+            <h6>{education.specification}</h6>
             <h5>{education.duration}</h5>
             <p>
               <em>{education.institute}</em>

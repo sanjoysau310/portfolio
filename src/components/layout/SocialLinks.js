@@ -1,25 +1,28 @@
 import React from "react";
 import "./layout.css";
-import { Link } from "react-router-dom";
 
 export const SocialLinks = () => {
   return (
     <div className="social-links">
-      <Link to="/" className="twitter">
+      <a href="/" target="_blank" rel="noreferrer" className="twitter">
         <i className="fa-brands fa-twitter" />
-      </Link>
-      <Link to="/" className="facebook">
+      </a>
+      <a href="/" target="_blank" rel="noreferrer" className="facebook">
         <i className="fa-brands fa-facebook" />
-      </Link>
-      <Link to="/" className="instagram">
+      </a>
+      <a href="/" target="_blank" rel="noreferrer" className="instagram">
         <i className="fa-brands fa-instagram" />
-      </Link>
-      <Link to="/" className="google-plus">
+      </a>
+      <a href="/" target="_blank" rel="noreferrer" className="google-plus">
         <i className="fa-brands fa-skype" />
-      </Link>
-      <Link to="/" className="linkedin">
+      </a>
+      <a
+        href="https://www.linkedin.com/in/sanjoysau/"
+        target="_blank"
+        rel="noreferrer"
+        className="linkedin">
         <i className="fa-brands fa-linkedin" />
-      </Link>
+      </a>
     </div>
   );
 };

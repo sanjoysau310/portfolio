@@ -23,22 +23,24 @@ export const ResumePage = () => {
   return (
     <div cid="resume" className="resume container mt-5">
       <div className="section-title">
-        <div className="float-end">
-          <Link>
-            <i
-              className={`fa-solid fa-download ${
-                !hoverText ? "text-white" : ""
-              }`}
-              onClick={downloadResume}
-              onMouseOver={() => setHoverText(true)}
-              onMouseOut={() => setHoverText(false)}
-            />
-          </Link>
-          {hoverText && <div>Download resume to know more in details</div>}
-        </div>
+        <Link>
+          <i
+            className={`fa-solid fa-download float-end ${
+              !hoverText ? "text-white" : ""
+            }`}
+            onClick={downloadResume}
+            onMouseOver={() => setHoverText(true)}
+            onMouseOut={() => setHoverText(false)}
+          />
+        </Link>
 
         <h2>Resume</h2>
-        <p>Check My Resume</p>
+          <p className="d-inline">Check My Resume</p>
+          {hoverText && (
+            <i className="float-end d-inline">
+              Download resume to know more in details
+            </i>
+          )}
       </div>
       <div className="row">
         <div className="col-lg-6">

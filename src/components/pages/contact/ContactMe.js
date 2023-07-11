@@ -8,7 +8,12 @@ export const ContactMe = () => {
       <div className="row mt-2">
         <div className="col-md-6 d-flex align-items-stretch">
           <div className="info-box">
-            <i className="fa fa-location-dot" />
+            <a
+              href="https://goo.gl/maps/wndoj9nRsrcXWw5q7"
+              target="_blank"
+              rel="noreferrer">
+              <i className="fa fa-location-dot" />
+            </a>
             <h3>My Address</h3>
             <p>C/6, Katjunagar, Jadavpur, Kolkata- 700032</p>
           </div>
@@ -22,14 +27,18 @@ export const ContactMe = () => {
         </div>
         <div className="col-md-6 mt-4 d-flex align-items-stretch">
           <div className="info-box">
-            <i className="fa fa-envelope" />
+            <a href="mailto:sanjoysau13@gmail.com">
+              <i className="fa fa-envelope" />
+            </a>
             <h3>Email Me</h3>
             <p>sanjoysau13@gmail.com</p>
           </div>
         </div>
         <div className="col-md-6 mt-4 d-flex align-items-stretch">
           <div className="info-box">
-            <i className="fa fa-phone" />
+            <a href="tel:+916289674153">
+              <i className="fa fa-phone" />
+            </a>
             <h3>Call Me</h3>
             <p>+91 9933625153</p>
           </div>
