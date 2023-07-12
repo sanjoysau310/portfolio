@@ -1,5 +1,8 @@
 import axios from "axios";
+import { addDoc, collection } from "firebase/firestore";
 import React, { useState } from "react";
+
+import { db } from "../../../firebase/firebase";
 
 const ContactForm = () => {
   const [userQueryDetails, setUserQueryDetails] = useState({
@@ -8,7 +11,6 @@ const ContactForm = () => {
     subject: "",
     message: "",
   });
-
   const [status, setStatus] = useState(false);
 
   const handleChange = (e) => {
@@ -18,9 +20,17 @@ const ContactForm = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(userQueryDetails);
+
+    //add to fire base
+    await addDoc(collection(db, "queries"), {
+      name: userQueryDetails.name,
+      email: userQueryDetails.email,
+      subject: userQueryDetails.subject,
+      message: userQueryDetails.message,
+    });
+    //add to google sheet
     axios
       .post(
         "https://sheet.best/api/sheets/f2b570ef-05fc-4d03-8dc4-e3a2cba5363d",
