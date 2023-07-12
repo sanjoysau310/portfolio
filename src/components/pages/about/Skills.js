@@ -1,100 +1,35 @@
 import React from "react";
+import about from "../../../data/about.json";
 
 export const Skills = () => {
+  const { skills } = about;
   return (
     <div className="skills container">
       <div className="section-title">
         <h2>Skills</h2>
       </div>
       <div className="row skills-content">
-        <div className="col-lg-6">
-          <div className="progress">
-            <span className="skill">
-              HTML <i className="val">100%</i>
-            </span>
-            <div className="progress-bar-wrap">
-              <div
-                className="progress-bar w-100"
-                role="progressbar"
-                aria-valuenow="100"
-                aria-valuemin={0}
-                aria-valuemax={100}
-              />
+        {skills.map((skill) => {
+          return (
+            <div className="col-lg-6" key={skill.title}>
+              <div className="progress">
+                <span className="skill">
+                  {skill.title} <i className="val">{skill.proficiency}%</i>
+                </span>
+                <div className="progress-bar-wrap">
+                  <div
+                    className="progress-bar"
+                    role="progressbar"
+                    style={{ width: skill.proficiency + "%" }}
+                    aria-valuenow={skill.proficiency}
+                    aria-valuemin={0}
+                    aria-valuemax={100}
+                  />
+                </div>
+              </div>
             </div>
-          </div>
-          <div className="progress">
-            <span className="skill">
-              CSS <i className="val">90%</i>
-            </span>
-            <div className="progress-bar-wrap">
-              <div
-                className="progress-bar"
-                role="progressbar"
-                aria-valuenow={90}
-                aria-valuemin={0}
-                aria-valuemax={100}
-              />
-            </div>
-          </div>
-          <div className="progress">
-            <span className="skill">
-              JavaScript <i className="val">75%</i>
-            </span>
-            <div className="progress-bar-wrap">
-              <div
-                className="progress-bar"
-                role="progressbar"
-                aria-valuenow={75}
-                aria-valuemin={0}
-                aria-valuemax={100}
-              />
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-6">
-          <div className="progress">
-            <span className="skill">
-              PHP <i className="val">80%</i>
-            </span>
-            <div className="progress-bar-wrap">
-              <div
-                className="progress-bar"
-                role="progressbar"
-                aria-valuenow={80}
-                aria-valuemin={0}
-                aria-valuemax={100}
-              />
-            </div>
-          </div>
-          <div className="progress">
-            <span className="skill">
-              WordPress/CMS <i className="val">90%</i>
-            </span>
-            <div className="progress-bar-wrap">
-              <div
-                className="progress-bar"
-                role="progressbar"
-                aria-valuenow={90}
-                aria-valuemin={0}
-                aria-valuemax={100}
-              />
-            </div>
-          </div>
-          <div className="progress">
-            <span className="skill">
-              Photoshop <i className="val">55%</i>
-            </span>
-            <div className="progress-bar-wrap">
-              <div
-                className="progress-bar"
-                role="progressbar"
-                aria-valuenow={55}
-                aria-valuemin={0}
-                aria-valuemax={100}
-              />
-            </div>
-          </div>
-        </div>
+          );
+        })}
       </div>
     </div>
   );

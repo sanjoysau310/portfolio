@@ -6,7 +6,7 @@ export const Counts = () => {
       <div className="row">
         <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
           <div className="count-box">
-            <i className="fa fa-face-smile fa-2xl"/>
+            <i className="fa fa-face-smile fa-2xl" />
             <span className="purecounter">1</span>
             <p>Companies</p>
           </div>

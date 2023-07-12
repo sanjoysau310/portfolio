@@ -1,0 +1,36 @@
+{
+    "skills": [
+        {
+            "title": "Java",
+            "proficiency": 100
+        },
+        {
+            "title": "JavaScript",
+            "proficiency": 90
+        },
+        {
+            "title": "Cypress",
+            "proficiency": 90
+        },
+        {
+            "title": "Selenium",
+            "proficiency": 100
+        },
+        {
+            "title": "ReactJs",
+            "proficiency": 90
+        },
+        {
+            "title": "SpringBoot",
+            "proficiency": 80
+        },
+        {
+            "title": "Jenkins",
+            "proficiency": 80
+        },
+        {
+            "title": "Git",
+            "proficiency": 75
+        }
+    ]
+}
